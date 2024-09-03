@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Camping</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Modo Camping</title>
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Modo Camping</h1>
+            <a id="ir-al-carrito" href="./carrito.html" style="color: white">Ver tus compras</a>
+
+            <a id="ir-al-inicio" href="index.html" style="color: #cfb8ec">Ir a Inicio</a>
+
+        </div>
+    </header>  
+
+    <main class="main">
+        <section class="container">
+            <h2 class="titulo">Artículos</h2>
+            <div class="productos" id="productos">
+                <!-- con JS -->
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="titulo">Tus Compras</h2>
+            <div class="carrito">
+                <div id="carrito-vacio" class="">
+                    <h4>Tu carrito está vacío. 🙁</h4>
+                </div>
+                <div class="carrito-productos d-none" id="carrito-productos">
+                    <!-- con JS -->
+                </div>
+                <button class="d-none" id="vaciar-carrito">Vaciar carrito</button>
+                <div class="carrito-total">
+                    <h2>Total a pagar: <span id="carrito-total">$0,00</span></h2>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <p>Modo Camping 2024©</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

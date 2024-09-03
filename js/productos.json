@@ -1,0 +1,38 @@
+[
+    {
+        "id": "articulo-1",
+        "titulo": "Carpa modelo Himalaya",
+        "precio": 550000,
+        "img": "./images/carpa1.webp"
+    },
+    {
+        "id": "articulo-2",
+        "titulo": "Carpa modelo Everest",
+        "precio": 650000,
+        "img": "./images/carpa2.webp"
+    },
+    {
+        "id": "articulo-3",
+        "titulo": "Carpa modelo Aconcagua",
+        "precio": 590000,
+        "img": "./images/carpa3.webp"
+    },
+    {
+        "id": "articulo-4",
+        "titulo": "Mochila 60 lts.",
+        "precio": 350000,
+        "img": "./images/mochila1.webp"
+    },
+    {
+        "id": "articulo-5",
+        "titulo": "Mochila 65 lts.",
+        "precio": 450000,
+        "img": "./images/mochila2.webp"
+    },
+    {
+        "id": "articulo-6",
+        "titulo": "Mochila 70 lts.",
+        "precio": 500000,
+        "img": "./images/mochila3.webp"
+    }
+]
